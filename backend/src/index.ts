@@ -2,8 +2,8 @@ import express, { type Request, type Response } from 'express';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import prisma from './prisma.js';
-import authRoutes from './routes/auth.js';
-import productRoutes from './routes/product.js';
+import authRoutes from './routes/authRoutes.js';
+import productRoutes from './routes/productRoutes.js';
 
 dotenv.config();
 
